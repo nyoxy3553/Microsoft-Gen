@@ -37,7 +37,7 @@ def main():
 
     init(strip=not sys.stdout.isatty())
     cprint(figlet_format('MC Gen'), 'cyan')
-    print(f'{color.GREEN} By FoxB, unpatched')
+    print(f'{color.GREEN} By Aidan <3')
 
     email = random_string(10, string.ascii_lowercase) + '@outlook.com'
     password = random_string(8, string.ascii_letters)
